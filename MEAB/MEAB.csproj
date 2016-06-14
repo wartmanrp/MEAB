@@ -193,12 +193,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ArmyList.cs" />
+    <Compile Include="Models\Hashset.cs" />
     <Compile Include="Models\Hero.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Unit.cs" />
+    <Compile Include="Models\UnitType.cs" />
     <Compile Include="Models\Warband.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

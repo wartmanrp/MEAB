@@ -7,9 +7,21 @@ namespace MEAB.Models
 {
     public class Unit
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Points { get; set; }
+
+        
+
+        public string Fight { get; set; }
+        public int Strength { get; set; }
 
 
 
+        //virtuals
+
+        //collections
+        public virtual ICollection<UnitType> UnitTypes { get; set; }
 
         //utility stuff
         public string CreatorId { get; set; }
