@@ -5,17 +5,11 @@ using System.Web;
 
 namespace MEAB.Models
 {
-    public class Hero
-    {
-
-
-
-
-        //utility stuff
-        public string CreatorId { get; set; }
-        public virtual ApplicationUser Creator { get; set; }
-
-        public DateTimeOffset Created { get; set; }
-        public DateTimeOffset? Updated { get; set; }
-    }
+public class Hero : Unit
+   {
+      public int Might { get; set; }
+      public int Will { get; set; }
+      public int Fate { get; set; }
+      public string Notes { get; set; }
+   }
 }
