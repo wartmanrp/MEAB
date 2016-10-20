@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System.Collections.Generic;
+using MEAB.Models;
 
 namespace MEAB.Models
 {
@@ -52,6 +53,7 @@ namespace MEAB.Models
         public DbSet<Warband> Warbands { get; set; }
         public DbSet<Unit> Units { get; set; }
         public DbSet<Hero> Heroes { get; set; }
+        public DbSet<UnitType> UnitTypes { get; set; }
 
     }
 }

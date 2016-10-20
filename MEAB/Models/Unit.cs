@@ -21,8 +21,10 @@ namespace MEAB.Models
       public int Wounds { get; set; }
       public int Courage { get; set; }
 
+
+      public int UnitTypeId { get; set; }
       //collections
-      public virtual ICollection<UnitType> UnitTypes { get; set; }
+      public virtual UnitType Type { get; set; }
 
       //utility stuff
       public string CreatorId { get; set; }

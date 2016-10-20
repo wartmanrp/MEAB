@@ -136,3 +136,5 @@ C:\Users\pwartman\Documents\GitHub\MEAB\MEAB\obj\Debug\MEAB.dll
 C:\Users\pwartman\Documents\GitHub\MEAB\MEAB\obj\Debug\MEAB.pdb
 C:\Users\pwartman\Documents\GitHub\MEAB\MEAB\obj\Debug\MEAB.Migrations.initial.resources
 C:\Users\pwartman\Documents\GitHub\MEAB\MEAB\obj\Debug\MEAB.csproj.GenerateResource.Cache
+C:\Users\pwartman\Documents\GitHub\MEAB\MEAB\obj\Debug\MEAB.Migrations.update.resources
+C:\Users\pwartman\Documents\GitHub\MEAB\MEAB\obj\Debug\MEAB.Migrations.update2.resources

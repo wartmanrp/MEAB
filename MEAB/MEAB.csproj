@@ -202,10 +202,17 @@
     <Compile Include="Migrations\201610181852154_initial.Designer.cs">
       <DependentUpon>201610181852154_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201610192051242_update.cs" />
+    <Compile Include="Migrations\201610192051242_update.Designer.cs">
+      <DependentUpon>201610192051242_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201610192053515_update2.cs" />
+    <Compile Include="Migrations\201610192053515_update2.Designer.cs">
+      <DependentUpon>201610192053515_update2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ArmyList.cs" />
-    <Compile Include="Models\Hashset.cs" />
     <Compile Include="Models\Hero.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -296,6 +303,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201610181852154_initial.resx">
       <DependentUpon>201610181852154_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610192051242_update.resx">
+      <DependentUpon>201610192051242_update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201610192053515_update2.resx">
+      <DependentUpon>201610192053515_update2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
